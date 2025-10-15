@@ -24,6 +24,8 @@ jobs:
           go-version: 'stable'
       - name: Run GoReleaser
         uses: goreleaser/goreleaser-action@v6
+        with:
+          args: release --clean
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # Your GoReleaser Pro key, if you are using the 'goreleaser-pro' distribution
