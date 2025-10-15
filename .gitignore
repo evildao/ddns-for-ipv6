@@ -1,0 +1,13 @@
+/.idea
+/*.log
+.vscode
+tools/out/
+/__debug_bin
+/wiki
+/go.sum
+*.iml
+/bin
+/tools
+/vendor
+/config.dev.toml
+frpc.ini

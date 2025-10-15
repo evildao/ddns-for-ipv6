@@ -1,0 +1,10 @@
+# 区域
+RegionId = "cn-hangzhou"
+# 阿里云accesskey
+AccessKey = ""
+# 阿里云accesssecret
+AccessSecret = ""
+# 主机名称(ddns-ipv6.xiaoliu.org)
+RR = "ddns-ipv6"
+# 域名
+DomainName = "xiaoliu.org"
